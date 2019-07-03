@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+<div>
+  <header
+    className="bg-dark"
+  >
+    <nav
+      className="navbar bg-dark"
+    >
+      <span
+        className="navbar-brand text-secondary"
+      >
+        TODO LIST
+      </span>
+    </nav>
+  </header>
+  <div
+    className="todolist"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        name="newTask"
+        onChange={[Function]}
+        onSubmit={[Function]}
+        type="text"
+        value=""
+      />
+    </form>
+    <div>
+      <span
+        className="input-group-text"
+      >
+        un
+        <i
+          className="material-icons"
+          onClick={[Function]}
+        >
+          check_box_outline_blank
+        </i>
+        <i
+          className="material-icons"
+          onClick={[Function]}
+        >
+          delete
+        </i>
+      </span>
+      <div
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
